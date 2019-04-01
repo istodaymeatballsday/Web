@@ -1,0 +1,2770 @@
+{
+  "data": [
+    {
+      "id": "45089373-6baf-42ee-a77c-1188e60767b4",
+      "startDate": "4/4/2019 12:00:00 AM",
+      "endDate": "4/4/2019 12:00:00 AM",
+      "dishID": "19e25897-e964-47b4-8da8-7d770ea37ca0",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "3df19d9d-0ac2-44e5-8521-092888d2d7c3",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Steamed hake, lobster sauce, browned mushrooms, matured cheese & potato purée",
+          "dishOccurrenceID": "45089373-6baf-42ee-a77c-1188e60767b4",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "662dae80-8426-4a09-907c-1ce35af8db43",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Ångad kummel, hummersås, brynt svamp, prästost- & potatispuré",
+          "dishOccurrenceID": "45089373-6baf-42ee-a77c-1188e60767b4",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "dc1836df-2972-40c3-92a8-4e91b948942f",
+      "dishType": {
+        "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+        "dishTypeName": "Fisk",
+        "dishTypeNameEnglish": "Fish",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "19e25897-e964-47b4-8da8-7d770ea37ca0",
+        "recipes": [
+          {
+            "id": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+            "recipeName": "Huvudrecept",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "9090fbec-f678-4c05-a430-196caf0c0e91",
+                "amount": 5.0,
+                "foodID": "341788C9-A665-4442-9E3A-F0571F4C7926",
+                "regionID": "3AF1965D-EACF-491C-BDEA-29C7E9312610",
+                "productionActivityID": "745E6312-7EB2-47A3-A45F-068DEE5B9FED",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+                "totalEmission": 0.08
+              },
+              {
+                "id": "30888ce1-3bfa-48b3-b9b7-50567e790a69",
+                "amount": 10.0,
+                "foodID": "032A8079-EEE4-49D1-B9FD-8E2A8AA44632",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "E4982D21-EC3E-44A3-96D2-D6A999290386",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+                "totalEmission": 0.07
+              },
+              {
+                "id": "3982a1bc-8135-4087-b8c4-83c41cd19c07",
+                "amount": 50.0,
+                "foodID": "A0B4AA5E-A651-477B-B870-9118D64B5678",
+                "regionID": "DA27B6AA-AFFC-4B8C-8A7A-AD5835904302",
+                "productionActivityID": "7C6BF954-C623-4C0F-A12B-9B633E6F3E01",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+                "totalEmission": 0.24
+              },
+              {
+                "id": "c777b7e7-d8d2-4b91-b7c8-9cc16e0d059d",
+                "amount": 150.0,
+                "foodID": "D3A3ABD5-906D-40D9-9C60-1235E6A4B83C",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "1E19130C-0CED-42D6-9330-203B8BD5FF61",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+                "totalEmission": 0.01
+              },
+              {
+                "id": "55923abf-1f73-4e39-a25e-c78b64a34545",
+                "amount": 140.0,
+                "foodID": "D55ACC23-C781-4320-A282-1CDCC93E0EEC",
+                "regionID": "DD927DAC-E4AC-45B4-9067-8F4878748212",
+                "productionActivityID": "401DD7EA-8D8C-46A0-9BF9-7FF99E951BC1",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+                "totalEmission": 0.48
+              },
+              {
+                "id": "0740ca4f-c575-4d7c-9f94-db2fd465e634",
+                "amount": 50.0,
+                "foodID": "EE1426AF-4DA0-4DC3-B8E8-8D62B4E51278",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "F95DF46F-9049-441A-B078-41B63A5AFA8D",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+                "totalEmission": 0.05
+              },
+              {
+                "id": "0a81c641-bd51-4d8b-a39e-e420bb9e82cf",
+                "amount": 50.0,
+                "foodID": "CE706B63-59FF-4E18-A5FB-4EFF160B0A0D",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "C5755156-F1F7-4A80-B21B-49F2F35D0418",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "fdd53f91-daf9-4d05-96aa-9606e9e0a082",
+                "totalEmission": 0.26
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 1.19
+          }
+        ],
+        "dishName": "Torskfisk, svamp, hummersås, potatispuré",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 1.19,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_6.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "ed6dedc3-efea-4170-a4d9-269699afbed4",
+      "startDate": "4/5/2019 12:00:00 AM",
+      "endDate": "4/5/2019 12:00:00 AM",
+      "dishID": "36bc1fe6-8b63-4d80-8333-5b08e5db336f",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "16349f6d-3325-47f0-8ab2-181adcdb5077",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Mushroom stuffed cabbage roll, lingonberry jus, cucumber, potato",
+          "dishOccurrenceID": "ed6dedc3-efea-4170-a4d9-269699afbed4",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "9f581846-3db8-4122-9a03-c7672c97dd3d",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Svampfylld kåldolme, lingonsky, pressgurka, kokt potatis",
+          "dishOccurrenceID": "ed6dedc3-efea-4170-a4d9-269699afbed4",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+      "dishType": {
+        "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+        "dishTypeName": "Vegan",
+        "dishTypeNameEnglish": "Vegan",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "36bc1fe6-8b63-4d80-8333-5b08e5db336f",
+        "recipes": [
+          {
+            "id": "da0af30f-88de-4039-ad11-d768b4c82f34",
+            "recipeName": "Huvudrätt",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "3f6c951d-4bcc-46d0-b9ae-104b1c9ed02d",
+                "amount": 200.0,
+                "foodID": "D3A3ABD5-906D-40D9-9C60-1235E6A4B83C",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "1E19130C-0CED-42D6-9330-203B8BD5FF61",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "da0af30f-88de-4039-ad11-d768b4c82f34",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "e5f6bde6-af87-4d96-8e0e-18a92d56bf25",
+                "amount": 120.0,
+                "foodID": "51E5E0B7-6714-446A-B03C-8900A431ECB0",
+                "regionID": "F195EA66-74E0-4D6B-9BAB-40D694F5CBCE",
+                "productionActivityID": "86BD06C9-80D8-4656-94B6-3B6F25CA4659",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "da0af30f-88de-4039-ad11-d768b4c82f34",
+                "totalEmission": 0.13
+              },
+              {
+                "id": "9eb88992-f27a-4af1-9854-1eae8795114e",
+                "amount": 60.0,
+                "foodID": "DF20E13F-BC40-45C6-B399-778ED8450A01",
+                "regionID": "D2A78982-02E5-4521-BA3D-3669DB2B2C33",
+                "productionActivityID": "C2F2F591-DD44-4445-8CA3-207E66BC23AA",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "da0af30f-88de-4039-ad11-d768b4c82f34",
+                "totalEmission": 0.07
+              },
+              {
+                "id": "36fd3808-3af5-4cf4-8d69-7e256019f31a",
+                "amount": 40.0,
+                "foodID": "404C5C6C-CC97-4617-B60F-1D6A1295E11D",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "0F64793B-07DD-4600-81ED-37B5A9B88CB2",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "da0af30f-88de-4039-ad11-d768b4c82f34",
+                "totalEmission": 0.03
+              },
+              {
+                "id": "7f344a68-a55c-4faa-b534-b7411457c78f",
+                "amount": 80.0,
+                "foodID": "F966D834-5231-4589-A6A8-A814C441E96B",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "da0af30f-88de-4039-ad11-d768b4c82f34",
+                "totalEmission": 0.02
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 0.27
+          }
+        ],
+        "dishName": "Vegetarisk kålpudding, lingon, potatis",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 0.27,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_2.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "88c0773b-8e8b-4403-af72-2d8a6020df00",
+      "startDate": "4/4/2019 12:00:00 AM",
+      "endDate": "4/4/2019 12:00:00 AM",
+      "dishID": "b6523129-5c05-4c9b-a70c-b4207d821398",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "c72e0e6c-ce3d-4612-a4f2-46231e0789ff",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Meat patty, fried onion, horseradish cucumber, black currant jus, potato",
+          "dishOccurrenceID": "88c0773b-8e8b-4403-af72-2d8a6020df00",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "982cd5e7-a6e3-418b-a1bc-76949b57d316",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Pannbiff, stekt lök, pepparrotsgurka, svartvinbärssky, kokt potatis",
+          "dishOccurrenceID": "88c0773b-8e8b-4403-af72-2d8a6020df00",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "98105f23-c649-4043-98c5-62b1543dacd9",
+      "dishType": {
+        "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+        "dishTypeName": "Kött",
+        "dishTypeNameEnglish": "Meat",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "b6523129-5c05-4c9b-a70c-b4207d821398",
+        "recipes": [
+          {
+            "id": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+            "recipeName": "Huvudrätt",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "35a39bb0-d335-4035-96e0-12a54fdf7166",
+                "amount": 150.0,
+                "foodID": "D3A3ABD5-906D-40D9-9C60-1235E6A4B83C",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "1E19130C-0CED-42D6-9330-203B8BD5FF61",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 0.01
+              },
+              {
+                "id": "cb27794c-882b-4b44-af2b-51f6a210b78b",
+                "amount": 10.0,
+                "foodID": "CF381668-4317-41FE-95F1-0B74B40A60E9",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "8CC1C325-C9CD-486E-A585-93FFB1DF97C9",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "7d81f55f-d762-4d4e-81ba-651eee123b6a",
+                "amount": 50.0,
+                "foodID": "F2BAB4A1-4CC4-4C56-BD1B-745B59B33541",
+                "regionID": "AAE4F51A-EBD6-4644-915A-1F507501908E",
+                "productionActivityID": "1BEDFBA5-890A-4543-AE44-99D7A5DC0055",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 0.03
+              },
+              {
+                "id": "9039116c-ed82-47a7-86a3-81c29a3e03e3",
+                "amount": 10.0,
+                "foodID": "E3452F62-DDD8-4F30-9A92-623A77118724",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 0.01
+              },
+              {
+                "id": "da0aec6d-adb0-4f68-8655-89481e14d455",
+                "amount": 10.0,
+                "foodID": "C75EEBAE-F034-4BBE-B06F-C2046C830351",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 0.07
+              },
+              {
+                "id": "8f6ba14d-c8bd-4dba-8605-a887cce793dd",
+                "amount": 50.0,
+                "foodID": "EE1426AF-4DA0-4DC3-B8E8-8D62B4E51278",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "F95DF46F-9049-441A-B078-41B63A5AFA8D",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 0.05
+              },
+              {
+                "id": "50e69313-1d2f-4882-bb7f-dc7bd8920e75",
+                "amount": 140.0,
+                "foodID": "74F58074-5CA4-4D33-BECB-3EF40DC1A63E",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "7E4F1055-6F2F-41E4-BFE7-65B084F00E84",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 2.33
+              },
+              {
+                "id": "9fbbe002-0e72-4ab4-9171-e4aff5d4c153",
+                "amount": 50.0,
+                "foodID": "BBC2B501-278B-4DA5-9770-FCDE41639031",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "055D7D40-D507-45CD-BC9F-85BFDAA88D9C",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "4c0b0cf7-6315-4054-977e-2b8e3cd2a09d",
+                "totalEmission": 0.05
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 2.57
+          }
+        ],
+        "dishName": "Pannbiff, stekt gul lök, saltgurka & potatispuré",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 2.57,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_10.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "53c64154-68a7-47c7-9186-52adda815aae",
+      "startDate": "4/5/2019 12:00:00 AM",
+      "endDate": "4/5/2019 12:00:00 AM",
+      "dishID": "69b01914-1cd9-423e-a2ed-4fdb9d903a53",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "89f0dd8e-2bdf-4c6d-8e21-353c26563a5e",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Tomat- & räkbakad kolja, spenat, pepparrot, potatis- & palsternackpuré",
+          "dishOccurrenceID": "53c64154-68a7-47c7-9186-52adda815aae",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "5167eb87-c2e5-4ced-814a-4b2b3ca33ffe",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Tomato & shrimp baked haddock, spinach, horseradish, potato & parsnip purée",
+          "dishOccurrenceID": "53c64154-68a7-47c7-9186-52adda815aae",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "dc1836df-2972-40c3-92a8-4e91b948942f",
+      "dishType": {
+        "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+        "dishTypeName": "Fisk",
+        "dishTypeNameEnglish": "Fish",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "69b01914-1cd9-423e-a2ed-4fdb9d903a53",
+        "recipes": [
+          {
+            "id": "3c95d9e2-8689-48ca-8834-54c4374ef8d3",
+            "recipeName": "Huvudrätt",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "4c9c553c-72da-41c4-af93-0a03dfd8cb1f",
+                "amount": 25.0,
+                "foodID": "7DBDCCA4-1B1E-4CFB-AF00-5C08E6DBEF24",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "3c95d9e2-8689-48ca-8834-54c4374ef8d3",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "5145a12d-eba4-4916-bdf5-452661a9fb25",
+                "amount": 20.0,
+                "foodID": "357CF59B-072A-4B3C-A392-3752368720AA",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "3c95d9e2-8689-48ca-8834-54c4374ef8d3",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "299c55cc-54e7-4902-b982-61b6ed76e2f0",
+                "amount": 70.0,
+                "foodID": "CE706B63-59FF-4E18-A5FB-4EFF160B0A0D",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "C5755156-F1F7-4A80-B21B-49F2F35D0418",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "3c95d9e2-8689-48ca-8834-54c4374ef8d3",
+                "totalEmission": 0.36
+              },
+              {
+                "id": "6a3ab4fc-34c3-4278-b994-7cc4b36b2af9",
+                "amount": 150.0,
+                "foodID": "F9AEBAC1-4003-43E0-8A42-A59B386D2B8E",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "3c95d9e2-8689-48ca-8834-54c4374ef8d3",
+                "totalEmission": 0.34
+              },
+              {
+                "id": "eea8b59d-cb4d-4ce9-b630-c5df9748cd64",
+                "amount": 25.0,
+                "foodID": "F6BA042D-ED72-40BE-8BFA-AD1EB9C00387",
+                "regionID": "2A8D7D1B-9D14-48F4-9608-8E7DBAD12241",
+                "productionActivityID": "93098919-B872-4DDD-B5E7-E009B3ADD258",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "3c95d9e2-8689-48ca-8834-54c4374ef8d3",
+                "totalEmission": 0.17
+              },
+              {
+                "id": "57530995-5750-45b3-ac38-f022f9043a56",
+                "amount": 40.0,
+                "foodID": "26C985DB-D90F-42E5-A9D8-3D9FEFFA9B81",
+                "regionID": "485CBFEC-279D-4F63-AE9C-5104914CCCE2",
+                "productionActivityID": "1AB2DCD5-6831-4875-8717-F69035861889",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "3c95d9e2-8689-48ca-8834-54c4374ef8d3",
+                "totalEmission": 0.06
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 0.97
+          }
+        ],
+        "dishName": "Torskfisk, majonnäs, räkor, varm mejerisås",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 0.97,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_6.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "ddd8d6f1-bed2-4b2b-8471-6309e222b65f",
+      "startDate": "4/4/2019 12:00:00 AM",
+      "endDate": "4/4/2019 12:00:00 AM",
+      "dishID": "35c63dcd-4447-4cbc-b1a5-868462f97504",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "b78dbecb-8929-4983-b5f1-74c74bdd7f59",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Pad thai, scrambled tofu, cashew nuts",
+          "dishOccurrenceID": "ddd8d6f1-bed2-4b2b-8471-6309e222b65f",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "6fc32eb2-e2da-46dd-b83e-c86734b5ee04",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Pad thai, scrambled tofu, cashewnötter",
+          "dishOccurrenceID": "ddd8d6f1-bed2-4b2b-8471-6309e222b65f",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+      "dishType": {
+        "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+        "dishTypeName": "Vegan",
+        "dishTypeNameEnglish": "Vegan",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "35c63dcd-4447-4cbc-b1a5-868462f97504",
+        "recipes": [
+          {
+            "id": "e343de97-e556-4c13-a610-a6714256a847",
+            "recipeName": "Huvudrecept",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "7335bf0f-dff5-47b4-967c-05de154d2f0b",
+                "amount": 40.0,
+                "foodID": "c98d9e7c-830e-459a-b66f-a45a5f5aa65d",
+                "regionID": "087d649f-4be2-452d-a7c2-7bf08ff23238",
+                "productionActivityID": "96c013bb-5cf7-4860-8e53-15dee3a3c807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e343de97-e556-4c13-a610-a6714256a847",
+                "totalEmission": 0.01
+              },
+              {
+                "id": "f7acf8d6-6d50-4e58-be2f-24f43d02ab62",
+                "amount": 60.0,
+                "foodID": "7dbdcca4-1b1e-4cfb-af00-5c08e6dbef24",
+                "regionID": "087d649f-4be2-452d-a7c2-7bf08ff23238",
+                "productionActivityID": "96c013bb-5cf7-4860-8e53-15dee3a3c807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e343de97-e556-4c13-a610-a6714256a847",
+                "totalEmission": 0.04
+              },
+              {
+                "id": "0a83e2d9-ed9c-460e-81e5-56645ff35e7d",
+                "amount": 50.0,
+                "foodID": "f966d834-5231-4589-a6a8-a814c441e96b",
+                "regionID": "087d649f-4be2-452d-a7c2-7bf08ff23238",
+                "productionActivityID": "96c013bb-5cf7-4860-8e53-15dee3a3c807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e343de97-e556-4c13-a610-a6714256a847",
+                "totalEmission": 0.01
+              },
+              {
+                "id": "c7b59f67-b817-4c74-8e06-6e6f1caeaab7",
+                "amount": 50.0,
+                "foodID": "e6433d7d-16d4-403c-bd12-574acbbdb197",
+                "regionID": "d2a78982-02e5-4521-ba3d-3669db2b2c33",
+                "productionActivityID": "14d4c8b4-2f4c-4f97-9c41-dbc21299a449",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e343de97-e556-4c13-a610-a6714256a847",
+                "totalEmission": 0.15
+              },
+              {
+                "id": "774970fc-00be-4025-94ff-822c41bc5542",
+                "amount": 150.0,
+                "foodID": "51e5e0b7-6714-446a-b03c-8900a431ecb0",
+                "regionID": "f195ea66-74e0-4d6b-9bab-40d694f5cbce",
+                "productionActivityID": "86bd06c9-80d8-4656-94b6-3b6f25ca4659",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e343de97-e556-4c13-a610-a6714256a847",
+                "totalEmission": 0.17
+              },
+              {
+                "id": "146c2dc7-690c-4810-bc25-b0375a0097d4",
+                "amount": 15.0,
+                "foodID": "357cf59b-072a-4b3c-a392-3752368720aa",
+                "regionID": "087d649f-4be2-452d-a7c2-7bf08ff23238",
+                "productionActivityID": "96c013bb-5cf7-4860-8e53-15dee3a3c807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e343de97-e556-4c13-a610-a6714256a847",
+                "totalEmission": 0.01
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 0.39
+          }
+        ],
+        "dishName": "Vegan, sojafärs, nudlar, grönt",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 0.39,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_3.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "26f03ee0-ed32-4e6b-927a-8f32ecdf08d9",
+      "startDate": "4/5/2019 12:00:00 AM",
+      "endDate": "4/5/2019 12:00:00 AM",
+      "dishID": "e0042f21-de67-4011-97d0-9f99ffe5c608",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "4f909730-fd35-4ff9-b98e-398d91af36c0",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Pepper baked pork loin, risoni salad, pesto mayonnaise, baked tomato",
+          "dishOccurrenceID": "26f03ee0-ed32-4e6b-927a-8f32ecdf08d9",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "a8ea557d-31f0-4f89-8eed-8a3a0668c83d",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Pepparstekt fläskrygg, risonisallad, pestomajonnäs, bakad tomat",
+          "dishOccurrenceID": "26f03ee0-ed32-4e6b-927a-8f32ecdf08d9",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "98105f23-c649-4043-98c5-62b1543dacd9",
+      "dishType": {
+        "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+        "dishTypeName": "Kött",
+        "dishTypeNameEnglish": "Meat",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "e0042f21-de67-4011-97d0-9f99ffe5c608",
+        "recipes": [
+          {
+            "id": "e956e533-65be-4479-a21b-c2c31c79c842",
+            "recipeName": "Huvudrätt",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "644766f8-7d04-4624-b5a9-286738aed7aa",
+                "amount": 15.0,
+                "foodID": "357CF59B-072A-4B3C-A392-3752368720AA",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e956e533-65be-4479-a21b-c2c31c79c842",
+                "totalEmission": 0.01
+              },
+              {
+                "id": "0a4f2d38-7ac6-4489-b625-4023291510d2",
+                "amount": 150.0,
+                "foodID": "A21FFFB2-FDE9-4DBE-9BED-E04DA19640B7",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "CA2E5905-AEF1-47BF-8C99-C88A8E98B478",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e956e533-65be-4479-a21b-c2c31c79c842",
+                "totalEmission": 0.87
+              },
+              {
+                "id": "aee40962-6330-462e-9901-7de11e128ab2",
+                "amount": 40.0,
+                "foodID": "032A8079-EEE4-49D1-B9FD-8E2A8AA44632",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "E4982D21-EC3E-44A3-96D2-D6A999290386",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e956e533-65be-4479-a21b-c2c31c79c842",
+                "totalEmission": 0.27
+              },
+              {
+                "id": "0e4968aa-8b0f-4423-b444-bce3c0f7c89a",
+                "amount": 10.0,
+                "foodID": "87D50EC1-2771-49D2-B96E-531E5FEE6130",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "0DA427CB-8CE9-479D-9355-3EA02097DB21",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e956e533-65be-4479-a21b-c2c31c79c842",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "9365b578-4adb-4e19-ae13-cb1c6dad06b0",
+                "amount": 50.0,
+                "foodID": "0BB19553-A51E-4502-AA52-2E345C2A8E16",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "1F942E52-7451-4CF4-8592-9CBAC62CE134",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e956e533-65be-4479-a21b-c2c31c79c842",
+                "totalEmission": 0.01
+              },
+              {
+                "id": "4995aebb-4398-4c94-8e47-ee5e4581b493",
+                "amount": 40.0,
+                "foodID": "FBEFCE2C-C698-4A6B-8B14-2110C0A352E4",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e956e533-65be-4479-a21b-c2c31c79c842",
+                "totalEmission": 0.11
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 1.29
+          }
+        ],
+        "dishName": "Fläskkarré, svamp, betor, bearnaise",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 1.29,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_7.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "400942e8-19ae-4db3-93dc-c3e5c84eb3e1",
+      "startDate": "4/4/2019 12:00:00 AM",
+      "endDate": "4/4/2019 12:00:00 AM",
+      "dishID": "4e585ab4-3651-459e-9d2f-6e136b60abba",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "a475b41e-2a1a-4ff7-8d15-1c5e976a6627",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Caesarsallad; kyckling, grana padano, bacon, krutonger",
+          "dishOccurrenceID": "400942e8-19ae-4db3-93dc-c3e5c84eb3e1",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "2c8469d0-c6d0-4441-ae3b-c8b2379853a1",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Caesar salad; chicken, grana padano, bacon, croutons",
+          "dishOccurrenceID": "400942e8-19ae-4db3-93dc-c3e5c84eb3e1",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "4998dace-4990-443d-b69e-257b06c41d2c",
+      "dishType": {
+        "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+        "dishTypeName": "Sallad",
+        "dishTypeNameEnglish": "Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "4e585ab4-3651-459e-9d2f-6e136b60abba",
+        "recipes": [
+          {
+            "id": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+            "recipeName": "Huvudrätt",
+            "allergens": [
+              {
+                "id": "2d3fade7-20c2-4cf3-a80a-2d26f8d44ab1",
+                "allergenCode": "gluten",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/gluten.svg"
+              },
+              {
+                "id": "627b0988-1917-441f-8bb5-5b875ed126a1",
+                "allergenCode": "sulphites",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/sulphites.svg"
+              },
+              {
+                "id": "9a11edb8-ccc3-4bf2-9aae-8a4f017983cb",
+                "allergenCode": "fish",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/fish.svg"
+              },
+              {
+                "id": "d5205e13-53f4-4f84-840f-c1a492612c5a",
+                "allergenCode": "eggs",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/eggs.svg"
+              }
+            ],
+            "ingredients": [
+              {
+                "id": "8bff6228-ea8f-4b23-b589-0396b37f4f25",
+                "amount": 60.0,
+                "foodID": "66B6D786-50CB-43FA-A98A-90797C4D1B98",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "6F9BEBCB-764C-45C4-BE1F-E22C14E1D661",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.39
+              },
+              {
+                "id": "8c17379c-6691-47c6-b7b7-07ac826133b5",
+                "amount": 20.0,
+                "foodID": "1AC754CF-6E92-4191-B4DA-4698F516AC2E",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "0aa60b47-0fa5-49a8-a71e-399c6bd9c5e5",
+                "amount": 60.0,
+                "foodID": "C701FC4E-5270-4297-83D3-1CDB20B43C2E",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "2D0F02E7-76B5-4469-91AF-347D23966B37",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.08
+              },
+              {
+                "id": "f11c1393-dffb-4df4-a6ff-4ef4fa2ae1eb",
+                "amount": 15.0,
+                "foodID": "E3452F62-DDD8-4F30-9A92-623A77118724",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "57f4ccd9-ede7-4cc0-b86b-550db63f9ea3",
+                "amount": 25.0,
+                "foodID": "B813A7AA-D1F0-4594-AF2A-8C4D0768F5A5",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "1540B44D-7BC5-4E47-9AAF-A63DE3F91D69",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.24
+              },
+              {
+                "id": "0d18cf28-52d1-4ef8-8a37-6c79c9f3c187",
+                "amount": 5.0,
+                "foodID": "27FD2A11-4B51-4892-988A-AEFB3B5195F0",
+                "regionID": "699C429F-523F-463D-970F-0C149BE24988",
+                "productionActivityID": "F91F9736-74B1-458E-B2C0-CBB47456AD2B",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.0
+              },
+              {
+                "id": "ecba125c-1b13-4494-a963-6cb366a646ff",
+                "amount": 100.0,
+                "foodID": "A4BA86CC-ADDD-48CD-B9C3-4352A78ACD7E",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.21
+              },
+              {
+                "id": "d952263b-e589-43ef-9659-d74c3327e2f7",
+                "amount": 110.0,
+                "foodID": "7DBDCCA4-1B1E-4CFB-AF00-5C08E6DBEF24",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "e32b0e9f-b372-4e95-bf39-e6fa1637ef5d",
+                "totalEmission": 0.07
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 1.03
+          }
+        ],
+        "dishName": "Caesarsallad Lindholmen",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 1.03,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_6.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "13a0aed7-ce11-4763-9ac8-c63bde3f9db5",
+      "startDate": "4/4/2019 12:00:00 AM",
+      "endDate": "4/4/2019 12:00:00 AM",
+      "dishID": "4b13c344-e86d-4593-82a1-991f16a7a222",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "e6497d9c-3200-4a82-b4d1-2a80d044d777",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Asiatisk nudelsallad, räkor, röd curry- & kokosdressing",
+          "dishOccurrenceID": "13a0aed7-ce11-4763-9ac8-c63bde3f9db5",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "ec344f08-a46a-44cf-9e73-4ee965b3699f",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Asian noodle salad, shrimps, red curry & coconut dressing",
+          "dishOccurrenceID": "13a0aed7-ce11-4763-9ac8-c63bde3f9db5",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "4998dace-4990-443d-b69e-257b06c41d2c",
+      "dishType": {
+        "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+        "dishTypeName": "Sallad",
+        "dishTypeNameEnglish": "Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "4b13c344-e86d-4593-82a1-991f16a7a222",
+        "recipes": [
+          {
+            "id": "9504dc27-80d3-4ac5-b74a-30f10a7b059a",
+            "recipeName": "Huvudrätt",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "1d200490-4cc2-4a22-8c85-020b04374334",
+                "amount": 80.0,
+                "foodID": "F6BA042D-ED72-40BE-8BFA-AD1EB9C00387",
+                "regionID": "2A8D7D1B-9D14-48F4-9608-8E7DBAD12241",
+                "productionActivityID": "93098919-B872-4DDD-B5E7-E009B3ADD258",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "9504dc27-80d3-4ac5-b74a-30f10a7b059a",
+                "totalEmission": 0.54
+              },
+              {
+                "id": "0342eee3-eea7-4eb8-b778-1ad30d7b815d",
+                "amount": 50.0,
+                "foodID": "5719B8BE-BF58-4168-B7B0-33F406EE2DA9",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "34E2042E-EDC6-4A4E-87BD-B7368C5F88A1",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "9504dc27-80d3-4ac5-b74a-30f10a7b059a",
+                "totalEmission": 0.09
+              },
+              {
+                "id": "14fe0eb5-647b-405c-9f79-3c3aeda4b4b6",
+                "amount": 60.0,
+                "foodID": "F966D834-5231-4589-A6A8-A814C441E96B",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "9504dc27-80d3-4ac5-b74a-30f10a7b059a",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "1afe0cc2-ec16-4c0e-85e6-8dc138a89759",
+                "amount": 140.0,
+                "foodID": "7DBDCCA4-1B1E-4CFB-AF00-5C08E6DBEF24",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "9504dc27-80d3-4ac5-b74a-30f10a7b059a",
+                "totalEmission": 0.1
+              },
+              {
+                "id": "7215938d-19c1-4b29-848d-a458abcdf410",
+                "amount": 140.0,
+                "foodID": "0397DFA5-F6CD-4633-81A4-5386A9D7BEC0",
+                "regionID": "699C429F-523F-463D-970F-0C149BE24988",
+                "productionActivityID": "1D0D856F-81CD-455B-B64B-6B34BCE3C162",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "9504dc27-80d3-4ac5-b74a-30f10a7b059a",
+                "totalEmission": 0.32
+              },
+              {
+                "id": "cdd448a0-1370-499b-a1b8-d7f98d37f3fd",
+                "amount": 20.0,
+                "foodID": "C98D9E7C-830E-459A-B66F-A45A5F5AA65D",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "9504dc27-80d3-4ac5-b74a-30f10a7b059a",
+                "totalEmission": 0.0
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 1.07
+          }
+        ],
+        "dishName": "Sallad, räkor, nudlar, grönt, mejerisås",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 1.07,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_6.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "1a1718f6-ec3c-4799-a5db-e164fb409f68",
+      "startDate": "4/5/2019 12:00:00 AM",
+      "endDate": "4/5/2019 12:00:00 AM",
+      "dishID": "7e28db6e-40b3-4aeb-9d55-ee3263ad004a",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "71fc479d-e38f-4057-b824-2f9e9a0da491",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Caesar salad; chicken, grana padano, bacon, croutons",
+          "dishOccurrenceID": "1a1718f6-ec3c-4799-a5db-e164fb409f68",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "02ca6d37-2395-4a16-b2e0-b3d9e91877cd",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Caesarsallad; kyckling, grana padano, bacon, krutonger",
+          "dishOccurrenceID": "1a1718f6-ec3c-4799-a5db-e164fb409f68",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "4998dace-4990-443d-b69e-257b06c41d2c",
+      "dishType": {
+        "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+        "dishTypeName": "Sallad",
+        "dishTypeNameEnglish": "Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "7e28db6e-40b3-4aeb-9d55-ee3263ad004a",
+        "recipes": [
+          {
+            "id": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+            "recipeName": "Huvudrätt",
+            "allergens": [
+              {
+                "id": "120fbd6c-8f34-4b57-9515-57180dcf88cf",
+                "allergenCode": "fish",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/fish.svg"
+              },
+              {
+                "id": "0f54f31a-4555-440f-a4a9-7dde27e4f345",
+                "allergenCode": "gluten",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/gluten.svg"
+              },
+              {
+                "id": "87b9aecf-afd8-46e9-bb5b-86fe9e38d1fb",
+                "allergenCode": "eggs",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/eggs.svg"
+              },
+              {
+                "id": "c6ff78f3-1a16-4379-b074-8b28eafe5a87",
+                "allergenCode": "sulphites",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "allergenURL": "https://carbonatestorage.blob.core.windows.net/allergens/sulphites.svg"
+              }
+            ],
+            "ingredients": [
+              {
+                "id": "84d3ea49-b717-4319-a236-2e3438e877d5",
+                "amount": 15.0,
+                "foodID": "E3452F62-DDD8-4F30-9A92-623A77118724",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "2d9d6180-f888-4ac9-a9d3-4c0e36c15b48",
+                "amount": 100.0,
+                "foodID": "A4BA86CC-ADDD-48CD-B9C3-4352A78ACD7E",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.21
+              },
+              {
+                "id": "bfd23e7e-115a-45ba-b332-66c3b3e62d7f",
+                "amount": 20.0,
+                "foodID": "1AC754CF-6E92-4191-B4DA-4698F516AC2E",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "4c90571b-4326-43cd-8021-87dafef2c1a7",
+                "amount": 25.0,
+                "foodID": "B813A7AA-D1F0-4594-AF2A-8C4D0768F5A5",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "1540B44D-7BC5-4E47-9AAF-A63DE3F91D69",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.24
+              },
+              {
+                "id": "50301960-b7f6-4f91-9e4a-a3b3f972e573",
+                "amount": 60.0,
+                "foodID": "66B6D786-50CB-43FA-A98A-90797C4D1B98",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "6F9BEBCB-764C-45C4-BE1F-E22C14E1D661",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.39
+              },
+              {
+                "id": "1449fdf3-fb69-419c-8a38-bc87b373033b",
+                "amount": 110.0,
+                "foodID": "7DBDCCA4-1B1E-4CFB-AF00-5C08E6DBEF24",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.07
+              },
+              {
+                "id": "01ec3c60-aa15-4359-afb3-c36049545ca6",
+                "amount": 5.0,
+                "foodID": "27FD2A11-4B51-4892-988A-AEFB3B5195F0",
+                "regionID": "699C429F-523F-463D-970F-0C149BE24988",
+                "productionActivityID": "F91F9736-74B1-458E-B2C0-CBB47456AD2B",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.0
+              },
+              {
+                "id": "58e013df-b578-4316-9aa8-cf06a59eca9a",
+                "amount": 60.0,
+                "foodID": "C701FC4E-5270-4297-83D3-1CDB20B43C2E",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "2D0F02E7-76B5-4469-91AF-347D23966B37",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "2334c5a8-a728-4d26-b907-9daff4be41fd",
+                "totalEmission": 0.08
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 1.03
+          }
+        ],
+        "dishName": "Caesarsallad Lindholmen",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 1.03,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_6.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    },
+    {
+      "id": "9d5cccb1-750e-4443-95bc-ffe9e6b18153",
+      "startDate": "4/5/2019 12:00:00 AM",
+      "endDate": "4/5/2019 12:00:00 AM",
+      "dishID": "9abe0811-ae32-48ba-9c34-f4d46c517181",
+      "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+      "mealProvidingUnit": {
+        "id": "871c63d7-4ddb-46b8-d2a0-08d558129279",
+        "mealProvidingUnitName": "L's Express",
+        "organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
+        "showFoods": true,
+        "showArticles": true,
+        "longitude": 0.0,
+        "latitude": 0.0,
+        "displayNameCategories": [
+          {
+            "displayNameCategoryID": "97e59813-2289-47ed-430b-08d55812927c",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          },
+          {
+            "displayNameCategoryID": "cfb75588-4f5e-43a4-430c-08d55812927c",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "871c63d7-4ddb-46b8-d2a0-08d558129279"
+          }
+        ],
+        "dishTypes": [
+          {
+            "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+            "dishTypeName": "Vegan",
+            "dishTypeNameEnglish": "Vegan",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+            "dishTypeName": "Vegetarisk",
+            "dishTypeNameEnglish": "Vegetarisk",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+            "dishTypeName": "Sallad",
+            "dishTypeNameEnglish": "Sallad",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+            "dishTypeName": "Fisk",
+            "dishTypeNameEnglish": "Fish",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          },
+          {
+            "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+            "dishTypeName": "Kött",
+            "dishTypeNameEnglish": "Meat",
+            "isEnabled": true,
+            "price": 0.0,
+            "hasPrice": false
+          }
+        ],
+        "settings": {
+          "id": "12f72c78-a467-441d-3566-08d623d8b97f",
+          "hasLibrary": false,
+          "hasNyckelhalsLabel": false,
+          "hasWwfApprovedLabel": false,
+          "hasPricesLabel": false,
+          "dayMenuSettings": null,
+          "weekMenuSettings": null,
+          "individualMenuSettings": null
+        }
+      },
+      "displayNames": [
+        {
+          "dishID": null,
+          "id": "1942a82c-a550-477f-9eb6-48df6a909a8d",
+          "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+          "dishDisplayName": "Asian noodle salad, shrimps, red curry & coconut dressing",
+          "dishOccurrenceID": "9d5cccb1-750e-4443-95bc-ffe9e6b18153",
+          "displayNameCategory": {
+            "displayNameCategoryID": "307f15ad-8bff-49fc-3cec-08d5569587a6",
+            "displayNameCategoryName": "English",
+            "sortOrder": 2,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        },
+        {
+          "dishID": null,
+          "id": "47c9eba2-9827-45c6-860e-cb23eabfb786",
+          "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+          "dishDisplayName": "Asiatisk nudelsallad, räkor, röd curry- & kokosdressing",
+          "dishOccurrenceID": "9d5cccb1-750e-4443-95bc-ffe9e6b18153",
+          "displayNameCategory": {
+            "displayNameCategoryID": "7c5e0f87-9dff-4675-3ceb-08d5569587a6",
+            "displayNameCategoryName": "Swedish",
+            "sortOrder": 1,
+            "mealProvidingUnitID": "c74da2cf-aa1a-4d3a-9ba6-08d5569587a1"
+          }
+        }
+      ],
+      "dishTypeID": "4998dace-4990-443d-b69e-257b06c41d2c",
+      "dishType": {
+        "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+        "dishTypeName": "Sallad",
+        "dishTypeNameEnglish": "Sallad",
+        "isEnabled": true,
+        "price": 0.0,
+        "hasPrice": false
+      },
+      "dish": {
+        "id": "9abe0811-ae32-48ba-9c34-f4d46c517181",
+        "recipes": [
+          {
+            "id": "6457e5b4-1e12-4434-b6b9-be7f7c54cfa0",
+            "recipeName": "Huvudrätt",
+            "allergens": [],
+            "ingredients": [
+              {
+                "id": "b4c27544-6eab-4033-916f-43627847f864",
+                "amount": 140.0,
+                "foodID": "0397DFA5-F6CD-4633-81A4-5386A9D7BEC0",
+                "regionID": "699C429F-523F-463D-970F-0C149BE24988",
+                "productionActivityID": "1D0D856F-81CD-455B-B64B-6B34BCE3C162",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "6457e5b4-1e12-4434-b6b9-be7f7c54cfa0",
+                "totalEmission": 0.32
+              },
+              {
+                "id": "783acc7e-a1a2-45d8-95c5-4ba5b199dc22",
+                "amount": 140.0,
+                "foodID": "7DBDCCA4-1B1E-4CFB-AF00-5C08E6DBEF24",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "6457e5b4-1e12-4434-b6b9-be7f7c54cfa0",
+                "totalEmission": 0.1
+              },
+              {
+                "id": "859b1bb0-17fa-4234-ac32-7ad77c888e73",
+                "amount": 20.0,
+                "foodID": "C98D9E7C-830E-459A-B66F-A45A5F5AA65D",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "6457e5b4-1e12-4434-b6b9-be7f7c54cfa0",
+                "totalEmission": 0.0
+              },
+              {
+                "id": "a05c4d90-9be7-432a-99cf-9636ed9fd16a",
+                "amount": 60.0,
+                "foodID": "F966D834-5231-4589-A6A8-A814C441E96B",
+                "regionID": "087D649F-4BE2-452D-A7C2-7BF08FF23238",
+                "productionActivityID": "96C013BB-5CF7-4860-8E53-15DEE3A3C807",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "6457e5b4-1e12-4434-b6b9-be7f7c54cfa0",
+                "totalEmission": 0.02
+              },
+              {
+                "id": "a37b30b2-134f-4316-8777-f029d12d45f4",
+                "amount": 80.0,
+                "foodID": "F6BA042D-ED72-40BE-8BFA-AD1EB9C00387",
+                "regionID": "2A8D7D1B-9D14-48F4-9608-8E7DBAD12241",
+                "productionActivityID": "93098919-B872-4DDD-B5E7-E009B3ADD258",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "6457e5b4-1e12-4434-b6b9-be7f7c54cfa0",
+                "totalEmission": 0.54
+              },
+              {
+                "id": "cf51ab1e-1a04-4f4b-bfa7-f5ee0974dc44",
+                "amount": 50.0,
+                "foodID": "5719B8BE-BF58-4168-B7B0-33F406EE2DA9",
+                "regionID": "0717F9D4-B28C-4D16-BC64-44BCFC8271B8",
+                "productionActivityID": "34E2042E-EDC6-4A4E-87BD-B7368C5F88A1",
+                "isEcological": false,
+                "measurementUnitID": "4",
+                "recipeID": "6457e5b4-1e12-4434-b6b9-be7f7c54cfa0",
+                "totalEmission": 0.09
+              }
+            ],
+            "basedOn": null,
+            "instructions": null,
+            "portions": 1,
+            "cookbookIDs": [],
+            "totalEmission": 1.07
+          }
+        ],
+        "dishName": "Sallad, räkor, nudlar, grönt, mejerisås",
+        "displayNames": null,
+        "dishType": null,
+        "cookbookIDs": [],
+        "editableByDefault": false,
+        "totalEmission": 1.07,
+        "mainRecipe": null,
+        "price": 0.0,
+        "prices": "85/75/65",
+        "totalEmissionURL": "http://carboncloudrestaurantweb.azurewebsites.net/resources/screens/@common/foot/black_foot_6.png"
+      },
+      "availableDishTypes": [
+        {
+          "id": "f6a14fc8-ccca-46a4-226e-08d623dfc44f",
+          "dishTypeName": "Vegan",
+          "dishTypeNameEnglish": "Vegan",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "6993a481-cf23-4ac3-997f-0adee406e4dd",
+          "dishTypeName": "Vegetarisk",
+          "dishTypeNameEnglish": "Vegetarisk",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "4998dace-4990-443d-b69e-257b06c41d2c",
+          "dishTypeName": "Sallad",
+          "dishTypeNameEnglish": "Sallad",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "dc1836df-2972-40c3-92a8-4e91b948942f",
+          "dishTypeName": "Fisk",
+          "dishTypeNameEnglish": "Fish",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        },
+        {
+          "id": "98105f23-c649-4043-98c5-62b1543dacd9",
+          "dishTypeName": "Kött",
+          "dishTypeNameEnglish": "Meat",
+          "isEnabled": true,
+          "price": 0.0,
+          "hasPrice": false
+        }
+      ],
+      "editableByDefault": false,
+      "sortOrder": 0,
+      "numberOfPreparedPortions": 0,
+      "numberOfServedPortions": 0,
+      "allergens": [],
+      "overrideAllergens": false,
+      "dishMenuSettings": null,
+      "dayMenuSettings": null,
+      "weekMenuSettings": null,
+      "nyckelhalmarkt": false,
+      "wwfApproved": false
+    }
+  ]
+}
