@@ -1,3 +1,9 @@
+export interface Day {
+  mealName: string;
+  co2: number;
+  date: Date;
+}
+
 export interface RootObject {
   data: Day[];
 }

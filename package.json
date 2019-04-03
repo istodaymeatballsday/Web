@@ -12,6 +12,7 @@
     "graphql": "^14.1.1",
     "lodash": "^4.17.11",
     "node-fetch": "^2.3.0",
+    "promise-fs": "^2.1.0",
     "rxjs": "^6.4.0",
     "serverless": "^1.40.0"
   },
@@ -19,7 +20,7 @@
     "@types/aws-lambda": "^8.10.17",
     "@types/graphql": "^14.0.7",
     "@types/lodash": "^4.14.123",
-    "@types/node": "^8.0.57",
+    "@types/node": "^8.10.45",
     "@types/node-fetch": "^2.1.7",
     "serverless-webpack": "^5.1.1",
     "source-map-support": "^0.5.6",
