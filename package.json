@@ -1,10 +1,11 @@
 {
-  "name": "CthFood",
+  "name": "IsTodayMeetballsDay",
   "version": "1.0.0",
   "description": "Serverless webpack example using Typescript",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-site": "ts-node scripts/buildWebSite.ts"
   },
   "dependencies": {
     "apollo-server-lambda": "^2.4.8",
@@ -12,9 +13,10 @@
     "graphql": "^14.1.1",
     "lodash": "^4.17.11",
     "node-fetch": "^2.3.0",
-    "promise-fs": "^2.1.0",
-    "rxjs": "^6.4.0",
-    "serverless": "^1.40.0"
+    "serverless": "^1.40.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-domain-manager": "^3.2.1",
+    "serverless-http": "^1.9.1"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.17",
@@ -24,7 +26,6 @@
     "@types/node-fetch": "^2.1.7",
     "serverless-webpack": "^5.1.1",
     "source-map-support": "^0.5.6",
-    "ts-loader": "^4.2.0",
     "ts-node": "^8.0.3",
     "typescript": "^2.9.2",
     "webpack": "^4.5.0"

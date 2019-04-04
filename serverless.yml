@@ -8,11 +8,14 @@ plugins:
 provider:
   name: aws
   runtime: nodejs8.10
+  stage: ${self:custom.secrets.NODE_ENV}
+  region: us-north-1
+  environment:
+    NODE_ENV: ${self:custom.secrets.NODE_ENV}
 
 functions:
-  hello:
-    handler: handler.hello
+  server:
+    handler: index.server
     events:
-      - http:
-          method: get
-          path: hello
+      - http: ANY /
+      - http: ANY /{proxy+}
