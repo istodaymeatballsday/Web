@@ -5,8 +5,7 @@
 		"endDate": "8/29/2018 12:00:00 AM",
 		"dishID": "450317c5-4514-4a9f-a62e-a6a9f1b0874c",
 		"mealProvidingUnitID": "3d519481-1667-4cad-d2a3-08d558129279",
-		"mealProvidingUnit": {
-			"id": "3d519481-1667-4cad-d2a3-08d558129279",
+		"mealProvidingUnit": {			"id": "3d519481-1667-4cad-d2a3-08d558129279",
 			"mealProvidingUnitName": "Express Johanneberg",
 			"organizationID": "11fbbb8c-14f0-44f4-7457-08d556947c13",
 			"showFoods": true,

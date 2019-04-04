@@ -1,5 +1,5 @@
 // import fetch from "node-fetch";
-import { Day as RawDay } from "./interfaces";
+import { RawDay } from "./interfaces";
 import * as _ from "lodash";
 import * as fs from "fs";
 (async () => {
@@ -9,7 +9,6 @@ import * as fs from "fs";
   const rawDays: RawDay[] = JSON.parse(
     fs.readFileSync("data.json", { encoding: "utf8" })
   );
-  getFriendlyFormat(rawDays);
 })();
 
 export function getMealStrings(days: RawDay[]) {

@@ -5,10 +5,10 @@ export interface Day {
 }
 
 export interface RootObject {
-  data: Day[];
+  data: RawDay[];
 }
 
-export interface Day {
+export interface RawDay {
   id: string;
   startDate: string;
   endDate: string;
