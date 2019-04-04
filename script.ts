@@ -8,7 +8,11 @@ import * as fs from "fs";
   // )).json();
   const rawDays: RawDay[] = JSON.parse(
     fs.readFileSync("data.json", { encoding: "utf8" })
-  );
+  ).data;
+  // console.log(rawDays)
+  const meatMashRegex = /meatballs.*mashed|mashed.*meatballs/
+  const mealStrings = getMealStrings(rawDays).map(meal => meal.toLowerCase()).filter(mealString => meatMashRegex.test(mealString))
+  console.log(mealStrings)
 })();
 
 export function getMealStrings(days: RawDay[]) {
@@ -34,7 +38,7 @@ export function aggregate(foods: string[]): Record<string, number> {
 }
 
 export function getIngredients(mealStrings: string[]) {
-  const separatorRegex = /(,|&)/;
+  const separatorRegex = /,|&/;
   return _.flattenDeep(
     mealStrings.map(food =>
       food.split(separatorRegex).filter(val => !separatorRegex.test(val))
