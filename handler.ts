@@ -6,8 +6,8 @@ export const meatballs: APIGatewayProxyHandler = async () => {
     headers: {
       "Content-Type": "text/html"
     },
-    body: `<!-- saved from url=(0042)http://istodaymacproday.com/?promocode=apt -->
-    <html class="gr__istodaymacproday_com">
+    body: `
+    <html>
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
         <title>Is today Meatballs day?</title>
