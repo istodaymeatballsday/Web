@@ -9,6 +9,15 @@ export const meatballs: APIGatewayProxyHandler = async () => {
     body: `
     <html>
       <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138002525-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-138002525-1');
+        </script>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
         <title>Is today Meatballs day?</title>
         <meta name="theme-color" content="#ffffff" />
