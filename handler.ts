@@ -1,6 +1,10 @@
 import { APIGatewayProxyHandler } from "aws-lambda";
+import fetch from "node-fetch";
 
 export const meatballs: APIGatewayProxyHandler = async () => {
+  const { msg } = (await (await fetch(
+    "https://istodaymeatballsday.com/api"
+  )).json()) as { msg: string; code: number };
   return {
     statusCode: 200,
     headers: {
@@ -34,7 +38,7 @@ export const meatballs: APIGatewayProxyHandler = async () => {
       <body data-gr-c-s-loaded="true">
         <div align="center" id="answer" style="font-size: 100px;">
           <br />
-          <h1>Nope.</h1>
+          <h1>${msg}</h1>
         </div>
         <script>
           var queryFields = window.location.search

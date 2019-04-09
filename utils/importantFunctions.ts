@@ -5,7 +5,7 @@ import { getMealStrings } from "./dataCrunching";
 export async function getTodaysMealCode() {
   const meatballsAndMashRegex = /meatballs.*mashed|mashed.*meatballs/;
   const mashRegex = /mashed/;
-  const today = await getFood(new Date());
+  const today = await getFood(getCurrentDate());
   const filterRegex = initFilterRegex(today);
   // nested ternary, sue me
   return filterRegex(meatballsAndMashRegex)
@@ -15,7 +15,7 @@ export async function getTodaysMealCode() {
     : { msg: "Nope.", code: 0 };
 }
 
-export async function getFood(start: Date, end: Date = new Date()) {
+export async function getFood(start: Date, end: Date = start) {
   const rayDays: RawDay[] = await (await fetch(
     `http://carbonateapiprod.azurewebsites.net/api/v1/mealprovidingunits/3d519481-1667-4cad-d2a3-08d558129279/dishoccurrences?startDate=${start
       .toISOString()
@@ -32,4 +32,8 @@ export function initFilterRegex(arr: string[]) {
     return arr.filter(mealString => regex.test(mealString)).length ? arr : null;
   }
   return filterRegex;
+}
+
+export function getCurrentDate() {
+  return new Date(new Date().setTime(+new Date() + 7200000));
 }
