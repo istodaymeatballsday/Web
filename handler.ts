@@ -46,13 +46,21 @@ export const meatballs: APIGatewayProxyHandler = async () => {
           }
         </script>
         <script>
-      (async () => {
-        const { msg } = await (await fetch(
-          "https://istodaymeatballsday.com/api"
-        )).json();
-        console.log(msg);
-        document.getElementById("answer-title").innerHTML = msg;
-      })();
+        (async () => {
+          let complete = false;
+          while (!complete) {
+            try {
+              const { msg } = await (await fetch(
+                "https://istodaymeatballsday.com/api"
+              )).json();
+              console.log(msg);
+              document.getElementById("answer-title").innerHTML = msg;
+              complete = true;
+            } catch (err) {
+              console.log("failed");
+            }
+          }
+        })();
     </script>
       </body>
     </html>
