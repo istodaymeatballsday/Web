@@ -8,3 +8,4 @@ jspm_packages
 # Webpack directories
 .webpack
 .DS_Store
+secrets

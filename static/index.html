@@ -1,6 +1,19 @@
-<!-- saved from url=(0042)http://istodaymacproday.com/?promocode=apt -->
-<html class="gr__istodaymacproday_com">
+<html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-138002525-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-138002525-1");
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
     <title>Is today Meatballs day?</title>
     <meta name="theme-color" content="#ffffff" />
@@ -17,7 +30,7 @@
   <body data-gr-c-s-loaded="true">
     <div align="center" id="answer" style="font-size: 100px;">
       <br />
-      <h1>NOPE.</h1>
+      <h1 class="answer"></h1>
     </div>
     <script>
       var queryFields = window.location.search
@@ -28,6 +41,15 @@
         var theAnswer = document.getElementById("answer");
         theAnswer.style.fontSize = "90%"; // 10% off is a good deal!
       }
+    </script>
+    <script>
+      (async () => {
+        // const { msg } = await (await fetch(
+        //   "https://istodaymeatballsday.com/api"
+        // )).json();
+        // console.log(msg);
+        document.getElementsByClassName("answer")[0].innerHTML = "nice";
+      })();
     </script>
   </body>
 </html>

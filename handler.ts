@@ -1,10 +1,6 @@
 import { APIGatewayProxyHandler } from "aws-lambda";
-import fetch from "node-fetch";
 
 export const meatballs: APIGatewayProxyHandler = async () => {
-  const { msg } = (await (await fetch(
-    "https://istodaymeatballsday.com/api"
-  )).json()) as { msg: string; code: number };
   return {
     statusCode: 200,
     headers: {
@@ -19,7 +15,6 @@ export const meatballs: APIGatewayProxyHandler = async () => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'UA-138002525-1');
         </script>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
@@ -38,7 +33,7 @@ export const meatballs: APIGatewayProxyHandler = async () => {
       <body data-gr-c-s-loaded="true">
         <div align="center" id="answer" style="font-size: 100px;">
           <br />
-          <h1>${msg}</h1>
+          <h1 id="answer-title"></h1>
         </div>
         <script>
           var queryFields = window.location.search
@@ -50,6 +45,15 @@ export const meatballs: APIGatewayProxyHandler = async () => {
             theAnswer.style.fontSize = "90%"; // 10% off is a good deal!
           }
         </script>
+        <script>
+      (async () => {
+        const { msg } = await (await fetch(
+          "https://istodaymeatballsday.com/api"
+        )).json();
+        console.log(msg);
+        document.getElementById("answer-title").innerHTML = msg;
+      })();
+    </script>
       </body>
     </html>
     `
