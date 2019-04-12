@@ -3,18 +3,12 @@ service:
 
 plugins:
   - serverless-webpack
-  # - serverless-s3-sync
   
 provider:
   name: aws
   runtime: nodejs8.10
   stage: dev
   region: eu-north-1
-
-# custom:
-#   s3Sync:
-#     - bucketName: meatballs-1337-420
-#       localDir: static
 
 functions:
   gui:
@@ -23,43 +17,3 @@ functions:
       - http:
           path: /
           method: get
-  api:
-    handler: api/handler.api
-    events:
-      - http:
-          path: /api
-          method: get
-          
-
-# resources:
-#   Resources:
-#     StaticSite:
-#       Type: AWS::S3::Bucket
-#       Properties:
-#         AccessControl: PublicRead
-#         BucketName: meatballs-1337-420
-#         WebsiteConfiguration:
-#           IndexDocument: static/index.html
-
-# StaticSiteS3BucketPolicy:
-#     Type: AWS::S3::BucketPolicy
-#     Properties:
-#       Bucket:
-#         Ref: StaticSite
-#       PolicyDocument:
-#         Statement:
-#           - Sid: PublicReadGetObject
-#             Effect: Allow
-#             Principal: "*"
-#             Action:
-#             - s3:GetObject
-#             Resource:
-#               Fn::Join: [
-#                 "", [
-#                   "arn:aws:s3:::",
-#                   {
-#                     "Ref": "StaticSite"
-#                   },
-#                   "/*"
-#                 ]
-#               ]

@@ -51,7 +51,7 @@ export const meatballs: APIGatewayProxyHandler = async () => {
           while (!complete) {
             try {
               const { msg } = await (await fetch(
-                "https://istodaymeatballsday.com/api"
+                "https://api.istodaymeatballsday.com/"
               )).json();
               console.log(msg);
               document.getElementById("answer-title").innerHTML = msg;
