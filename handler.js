@@ -1,7 +1,6 @@
-import { APIGatewayProxyHandler } from "aws-lambda";
+'use strict';
 
-export const meatballs: APIGatewayProxyHandler = async () => {
-  return {
+module.exports.meatballs = async () => ({
     statusCode: 200,
     headers: {
       "Content-Type": "text/html"
@@ -65,5 +64,4 @@ export const meatballs: APIGatewayProxyHandler = async () => {
       </body>
     </html>
     `
-  };
-};
+  });

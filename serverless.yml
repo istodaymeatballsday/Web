@@ -1,8 +1,5 @@
 service:
   name: IsTodayMeetballsDay
-
-plugins:
-  - serverless-webpack
   
 provider:
   name: aws
