@@ -11,7 +11,7 @@ while True:
 		answer = json.loads(res)['msg']
 		f = open('index.template.html', 'r').read()
 		new_html = f.replace('_ANSWER_', answer)
-		f = open('index.html', 'w+').write(new_html)
+		f = open('/var/www/istodaymeatballsday.com/index.html', 'w+').write(new_html)
 		break
 	except Exception as e:
 		print('went badly, tries again in 1000 ms...')
