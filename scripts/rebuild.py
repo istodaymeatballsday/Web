@@ -3,7 +3,8 @@ import json
 import urllib2
 import time
 
-while True: 
+tries = 10
+while tries >= 0:
 	try:
 		res = urllib2.urlopen('https://api.istodaymeatballsday.com').read()
 		f = open('/var/www/istodaymeatballsday.com/res.json', 'w+').write(res)
@@ -14,8 +15,9 @@ while True:
 		f = open('/var/www/istodaymeatballsday.com/index.html', 'w+').write(new_html)
 		break
 	except Exception as e:
-		print('went badly, tries again in 1000 ms...')
+		tries -= 1
+		print('went badly, ' + str(tries) + ' tries left, tries again in 10000 ms...')
 		print(e)
-		time.sleep(1)
+		time.sleep(10)
 
 print('done')
