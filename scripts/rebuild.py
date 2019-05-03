@@ -9,7 +9,7 @@ while True:
 		f = open('/var/www/istodaymeatballsday.com/res.json', 'w+').write(res)
 
 		answer = json.loads(res)['msg']
-		f = open('~/Web/scripts/index.template.html', 'r').read()
+		f = open('~/Web/index.template.html', 'r').read()
 		new_html = f.replace('_ANSWER_', answer)
 		f = open('/var/www/istodaymeatballsday.com/index.html', 'w+').write(new_html)
 		break
