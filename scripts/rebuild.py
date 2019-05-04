@@ -3,6 +3,7 @@ import json
 import urllib2
 import time
 import sys
+import datetime
 
 tries = 10
 while tries >= 0:
@@ -14,11 +15,10 @@ while tries >= 0:
 		f = open('/istodaymeatballsday.com/Web/index.template.html', 'r').read()
 		new_html = f.replace('_ANSWER_', answer)
 		f = open('/istodaymeatballsday.com/build/index.html', 'w+').write(new_html)
+		print str(datetime.datetime.now()) + ': ' + res
 		break
 	except Exception as e:
 		tries -= 1
 		print('went badly, ' + str(tries) + ' tries left, tries again in 10000 ms...')
 		print(e)
 		time.sleep(10)
-
-print('done')
