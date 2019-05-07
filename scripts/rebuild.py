@@ -53,7 +53,7 @@ def main():
 								'meatballs.*mashed|mashed.*meatballs', meat, re.IGNORECASE) else ('Nope.', 0)
 						write_to_res(meat, vegan, ans, code)
 						write_to_html(ans)
-						print datetime.now().__str__() + ': ' + ans
+						print datetime.now().__str__() + ': ' + ans + ' for date: ' + today
 						break
 				except Exception as e:
 						print e
