@@ -33,7 +33,7 @@ def is_vegan(raw_dish):
 
 
 def write_to_res(meat, vegan, ans, code):
-		content = {'meat': meat, 'vegan': vegan, 'msg': ans, 'code': code}
+		content = {'meat': meat, 'veg': vegan, 'msg': ans, 'code': code}
 		f = open('/istodaymeatballsday.com/build/res.json' if not dev else 'res.json', 'w+').write(json.dumps(content))
 
 
@@ -53,11 +53,11 @@ def main():
 								'meatballs.*mashed|mashed.*meatballs', meat, re.IGNORECASE) else ('Nope.', 0)
 						write_to_res(meat, vegan, ans, code)
 						write_to_html(ans)
-						print datetime.now().__str__() + ': ' + ans + ' for date: ' + today
+						print datetime.now().__str__() + ': ' + ans + ' For date: ' + today
 						break
 				except Exception as e:
-						print e
 						print datetime.now().__str__() + ': Error, tries again in 10 sec'
+						print e
 						time.sleep(10)
 
 main()
