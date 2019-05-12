@@ -2,10 +2,14 @@
 node_modules
 jspm_packages
 
-# Serverless directories
-.serverless
+# vscode
+.vscode
 
 # Webpack directories
 .webpack
 .DS_Store
 secrets
+
+# build
+index.html
+res.json
