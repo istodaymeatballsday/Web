@@ -37,15 +37,16 @@ def is_vegan(raw_dish):
 
 def write_to_res(meat, vegan, ans, code):
     content = {'meat': meat, 'veg': vegan, 'msg': ans, 'code': code}
-    f = open('/istodaymeatballsday.com/build/res.json' if not dev else 'res.json',
-             'w+').write(json.dumps(content))
+    open('/build/res.json' if not dev else 'res.json',
+         'w+').write(json.dumps(content))
 
 
 def write_to_html(ans):
-    f = open('/istodaymeatballsday.com/Web/index.template.html' if not dev else 'index.template.html', 'r').read()
+    f = open(
+        '/app/index.template.html' if not dev else 'index.template.html', 'r').read()
     new_html = f.replace('_ANSWER_', ans)
-    f = open('/istodaymeatballsday.com/build/index.html' if not dev else 'index.html',
-             'w+').write(new_html)
+    open('/build/index.html' if not dev else 'index.html',
+         'w+').write(new_html)
 
 
 def main():
