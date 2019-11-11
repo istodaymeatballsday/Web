@@ -48,6 +48,8 @@ def write_to_html(ans):
     open('/build/index.html' if not dev else 'index.html',
          'w+').write(new_html)
 
+def search(food):
+    return re.search('(meatballs.*mashed|mashed.*meatballs)|(k.ttbullar.*potatismos|potatismos.*k.ttbullar)', food, re.IGNORECASE)
 
 def main():
     while True:
@@ -55,8 +57,7 @@ def main():
             today = get_today()
             raw = get_todays_food(today)
             meat, vegan = parse_dishes(raw)
-            ans, code = ('Yep.', 1) if meat and vegan and re.search(
-                'meatballs.*mashed|mashed.*meatballs', meat, re.IGNORECASE) else ('Nope.', 0)
+            ans, code = ('Yep.', 1) if meat and vegan and (search(meat) or search(vegan)) else ('Nope.', 0)
 
             write_to_res(meat, vegan, ans, code)
             write_to_html(ans)
