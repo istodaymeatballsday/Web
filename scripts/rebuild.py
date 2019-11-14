@@ -26,7 +26,7 @@ def get_today():
 
 
 def parse_dishes(raw):
-    if (len(raw) > 1):
+    if len(raw) > 1:
         return raw[0]['displayNames'][1]['dishDisplayName'], raw[1]['displayNames'][1]['dishDisplayName']
     return None, None
 
