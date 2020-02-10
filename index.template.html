@@ -13,15 +13,6 @@
       gtag("js", new Date());
       gtag("config", "UA-138002525-1");
     </script>
-    <script async type="text/javascript">
-      window.addEventListener("DOMContentLoaded", () => {
-        if (window.location.search.includes("mode=dark")) {
-          document.body.setAttribute("style", "background-color: #15202B");
-          document.querySelector("h1").setAttribute("style", "color: #fff");
-        }
-      });
-    </script>
-
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
     <title>Is today Meatballs day?</title>
     <meta name="theme-color" content="#fff" />
@@ -32,6 +23,14 @@
         text-align: center;
         font-size: 100px;
         color: #222222;
+      }
+      @media (prefers-color-scheme: dark) { 
+          body { 
+            background-color: #15202b;
+           }
+           h1 {
+             color: #ffffff;
+           }
       }
     </style>
   </head>
