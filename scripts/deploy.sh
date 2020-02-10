@@ -4,8 +4,8 @@ cd "$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null && pwd)"
 
 if [[ $(docker ps -a | grep "meatballs") ]]; then
 	docker rm -f meatballs
+	docker rmi meatballs
 fi
-docker rmi meatballs
 
 docker pull antonhager/meatballs:latest
 docker run -d \
